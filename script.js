@@ -14,8 +14,9 @@ navLinks.forEach(function(link) {
 });
 
 
-let tg = window.Telegram.WebApp
 alert("lol")
+let tg = window.Telegram.WebApp
+alert("kek")
 tg.MainButton.setText("Send")
 tg.MainButton.enable()
 tg.MainButton.show()
