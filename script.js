@@ -20,7 +20,6 @@ alert("kek")
 tg.MainButton.setText("Send")
 tg.MainButton.enable()
 tg.MainButton.show()
-
-Telegram.WebApp.onEvent('mainButtonClicked', function(){
+tg.onEvent('mainButtonClicked', function(){
 	tg.sendData("some string that we need to send"); 
 });
